@@ -1,0 +1,35 @@
+{
+  "name": "@rana-mc/api",
+  "version": "0.2.1",
+  "main": "./build/server.js",
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "tsc",
+    "prebuild": "rm -rf build",
+    "build": "tsc",
+    "prestart": "tsc",
+    "start": "node --es-module-specifier-resolution=node build/main.js",
+    "watch": "tsc-watch --onSuccess \"node --es-module-specifier-resolution=node build/main.js\""
+  },
+  "dependencies": {
+    "@rana-mc/curseforge": "^0.2.2",
+    "@rana-mc/fabric": "^0.2.3",
+    "@rana-mc/forge": "^0.2.5",
+    "@types/express": "^4.17.13",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "lowdb": "^3.0.0",
+    "node-html-parser": "^5.3.3",
+    "socket.io": "^4.5.0",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.6.4"
+  }
+}
