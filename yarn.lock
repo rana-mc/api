@@ -12,10 +12,10 @@
     tsc-watch "^4.6.0"
     typescript "^4.5.2"
 
-"@rana-mc/fabric@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@rana-mc/fabric/-/fabric-0.2.3.tgz#aff444fddae4921408122d4e2819bbbdf6b62b87"
-  integrity sha512-YiI56BZeEWSmwb1YIg/+38ZHm9i+XXNwPcEU/sTn1/pcK5Qotu3gAON8P34WRtnbjWZz5FiVJXKzzkVQgcWKfA==
+"@rana-mc/fabric@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@rana-mc/fabric/-/fabric-0.2.4.tgz#9573cb5b4baa1fdf1901cf586aa4eaa5f0e93af4"
+  integrity sha512-7R6vFuZ8WA2FFYJrOR38f5vWXwTPWIjCi7WdUEHfSYCFar6GMawnlsAB5Yi0kv2BZX5gMOV7KpYCfDRKP1h9pQ==
   dependencies:
     "@types/download" "^8.0.1"
     "@types/node" "^16.11.13"
