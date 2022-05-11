@@ -1,6 +1,6 @@
 {
   "name": "@rana-mc/api",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "main": "./dist/server.js",
   "type": "module",
   "license": "MIT",
