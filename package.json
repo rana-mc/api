@@ -8,6 +8,7 @@
     "access": "public"
   },
   "scripts": {
+    "postinstall": "npm run build",
     "prebuild": "rm -rf build",
     "build": "tsc",
     "prestart": "tsc",
