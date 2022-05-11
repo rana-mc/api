@@ -1,19 +1,22 @@
 {
   "name": "@rana-mc/api",
   "version": "0.2.8",
-  "main": "./build/server.js",
+  "main": "./dist/server.js",
   "type": "module",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
+  "preferGlobal": true,
+  "bin": {
+    "ranamc-api": "cli.js"
+  },
   "scripts": {
-    "postinstall": "tsc",
-    "prebuild": "rm -rf build",
+    "prebuild": "rm -rf dist",
     "build": "tsc",
     "prestart": "tsc",
-    "start": "node --es-module-specifier-resolution=node build/main.js",
-    "watch": "tsc-watch --onSuccess \"node --es-module-specifier-resolution=node build/main.js\""
+    "start": "node --es-module-specifier-resolution=node dist/main.js",
+    "watch": "tsc-watch --onSuccess \"node --es-module-specifier-resolution=node dist/main.js\""
   },
   "dependencies": {
     "@rana-mc/curseforge": "^0.2.2",
