@@ -8,7 +8,6 @@
     "access": "public"
   },
   "scripts": {
-    "postinstall": "tsc",
     "prebuild": "rm -rf build",
     "build": "tsc",
     "prestart": "tsc",
