@@ -9,7 +9,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "ranamc-api": "cli.js"
+    "ranamc-api": "cli.mjs"
   },
   "scripts": {
     "prebuild": "rm -rf dist",
